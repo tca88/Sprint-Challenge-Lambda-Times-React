@@ -69,7 +69,3 @@ export default class Content extends Component {
     );
   }
 }
-
-Content.propTypes = {
-  selected: PropTypes.string
-};
