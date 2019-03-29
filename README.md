@@ -29,9 +29,40 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+  **Answer**
+
+  Proptypes is a type-checking system to check props we use in React and make sure data is correct/valid and the format that they should be. It’s important to type check data in JavaScript in order to catch errors and bugs, where if the data that is being used does not match the “shape” defined by PropTypes, then developers can see errors thrown in the console during development mode and fix them.
+
 - [ ] Describe a life-cycle event in React?
+
+  **Answer**
+
+  A React lifecycle is essentially the birth, growth and death of a component. The first stage, birth, is mounting, when the component is rendered on the screen. The second stage, growth, is when the component is re-rendered over and over, and the last stage ,death, is the component unmounting, when the DOM no longer needs the component.
+
 - [ ] Explain the details of a Higher Order Component?
+
+  **Answer**
+
+  Higher Order Components allows us to be able to reuse component logic, by receiving components as arguments and outputs shared functionality between these components passed to avoid repeating ourselves. An example of this is conditional rendering of components, where the Higher Order Component will take in the components we want to conditionally render, and contain the logic in which we’d want to render them.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+  **Answer**
+
+  The 3 ways to style components are:
+
+        1. Styled components:
+
+            It’s a styling library for React, and it’s a way to have and keep your styling logic and consolidate it all into the components they are for, which helps to better compartmentalize and stick to the component-based architecture. You’re also able to still reference CSS syntax and merge it nicely with JS using ES6.
+
+        2. Vanilla CSS:
+
+            Using regular CSS styling in CSS files and importing those files to their respective components. The benefit of this is that you can still stick to a way that is more widely known amongst developers since it’s not specific to a particular JS library that a person may or may not know.
+
+        3. React Bootstrap:
+
+            Reactstrap is the de-facto Bootstrap Styling library for React Components. The benefit of this is that there are already some pre-built components already styled out using the Bootstrap library, and also interactive styled components that can be integrated and used throughout a React application without necessarily needing to build them from the ground-up.
 
 ## Project Setup
 
