@@ -1,6 +1,8 @@
-import React from 'react';
+import React from "react";
+import styled, { css } from "styled-components";
+import PropTypes from "prop-types";
 
-// Refactor this component to use styled components and not classNames. 
+// Refactor this component to use styled components and not classNames.
 // You can find the corresponding CSS in the CSS/index.css file
 
 const Header = () => {
@@ -10,7 +12,7 @@ const Header = () => {
       <h1>Lambda Times</h1>
       <span className="temp">98°</span>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
